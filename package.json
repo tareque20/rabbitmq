@@ -1,0 +1,28 @@
+{
+  "name": "RabbitMQ",
+  "version": "1.0.0",
+  "description": "Simple RabbitMQ application",
+  "main": "app.js",
+  "scripts": {
+    "send": "node hello-world/send",
+    "receive": "node hello-world/receive"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "*",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "express-session": "^1.15.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tareque20/rabbitmq.git"
+  },
+  "author": "Tasfin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tareque20/rabbitmq/issues"
+  },
+  "homepage": "https://github.com/tareque20/rabbitmq#readme",
+  "devDependencies": {}
+}
