@@ -5,7 +5,7 @@ Example with RabbitMQ
 [Download and install](https://www.rabbitmq.com/download.html)
 
 
-## Run Project:
+## Install dependency:
 ```sh
 $ npm install
 ```
@@ -14,6 +14,11 @@ $ npm install
 ```sh
 $ npm install amqplib
 ```
+
+
+
+
+
 
 # Test Hello World Example
 ## Run send
@@ -33,5 +38,15 @@ $ npm run new_task
 ## Run Receive
 ```sh
 $ npm run worker
+```
+
+# Test Publish and Subscribe
+## Run send
+```sh
+$ npm run pub
+```
+## Run Receive
+```sh
+$ npm run sub
 ```
 
