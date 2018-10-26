@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "send": "node hello-world/send",
-    "receive": "node hello-world/receive"
+    "receive": "node hello-world/receive",
+    "new_task": "node work-queues/new_task",
+    "worker": "node work-queues/worker"
   },
   "dependencies": {
     "amqplib": "^0.5.2",
