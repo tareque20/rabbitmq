@@ -17,6 +17,13 @@ $ npm install amqplib
 
 
 
+```sh
+
+
+
+
+
+```
 
 
 
@@ -48,5 +55,25 @@ $ npm run pub
 ## Run Receive
 ```sh
 $ npm run sub
+```
+
+# Test Routing
+## Run send
+```sh
+$ npm run pub-direct
+```
+## Run Receive
+```sh
+$ npm run sub-direct
+```
+
+# Test Tpics
+## Run send
+```sh
+$ npm run pub-topic
+```
+## Run Receive
+```sh
+$ npm run sub-topic
 ```
 

@@ -9,7 +9,11 @@
     "new_task": "node work-queues/new_task",
     "worker": "node work-queues/worker",
     "pub": "node publish-subscribe/emit_log",
-    "sub": "node publish-subscribe/receive_logs"
+    "sub": "node publish-subscribe/receive_logs",
+    "pub-direct": "node routing/emit_log",
+    "sub-direct": "node routing/receive_logs",
+    "pub-topic": "node topics/emit_log",
+    "sub-topic": "node topics/receive_logs"
   },
   "dependencies": {
     "amqplib": "^0.5.2",
