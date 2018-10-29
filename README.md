@@ -96,3 +96,6 @@ $ npm run pub-topic "Info" "This is info message"
 ```
 
 
+# SRabbitMQ simulator
+[Simulator](https://jmcle.github.io/rabbitmq-visualizer/#)
+
