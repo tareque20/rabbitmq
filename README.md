@@ -95,7 +95,9 @@ $ npm run pub-topic "kern.critical" "A critical kernel error"
 $ npm run pub-topic "Info" "This is info message"
 ```
 # RabbitMQ
+![N|Solid](https://github.com/tareque20/rabbitmq/blob/master/AMQP%20Model.png)
 ![N|Solid](https://github.com/tareque20/rabbitmq/blob/master/AMQP.png)
+
 
 # RABBITMQ AND SERVER CONCEPTS
 Here are some important concepts that need to be described before we dig deeper into RabbitMQ. 
