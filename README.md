@@ -135,7 +135,7 @@ $ npm run pub-direct info "Info will explode."
 $ npm run pub-direct error "Run. Run. Or it will explode."
 ```
 
-# Test Tpics
+# Test Topics
 ## Run Receive
 ```sh
 $ npm run sub-topic "#"
